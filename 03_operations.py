@@ -24,7 +24,7 @@ print(1/2)
 print(2/1) # integer by integter => result float
 ##integer division ==  floor division. RESULTS ARE ALWAYS ROUNDED! rounding always goes to the lesser integer
 print('##integer division ==  floor division')
-print(6 // 3) # integer by integter => result integer
+print(6 // 3) # integer by integer => result integer
 print(6 // 3.)
 print(6. // 3)
 print(6. // 3.)
@@ -33,7 +33,7 @@ print(6 // 4)
 print(6. // 4) #rounded to the nearest integer value that is less than the real (not rounded) result
 print(6 / 4)
 print(6. / 4)
-print(-6 // 4) #he real (not rounded) result is -1.5 in both cases. However, the results are the subjects of rounding. The rounding goes toward the lesser integer value, and the lesser integer value is -2, hence: -2 and -2.0
+print(-6 // 4) #the real (not rounded) result is -1.5 in both cases. However, the results are the subjects of rounding. The rounding goes toward the lesser integer value, and the lesser integer value is -2, hence: -2 and -2.0
 print(6 // -4)
 ##modulo
 print('##remainder (modulo)')
