@@ -7,10 +7,10 @@ numbers = [10, 5, 7, 2, 1]
 print("Original list content:", numbers)  # Printing original list content.
 
 numbers[0] = 111
-print("New list content: ", numbers)  # Current list content.
+print("New list content adding the first element 111: ", numbers)  # Current list content.
 
 numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
-print("New list content:", numbers)  # Printing current list content.
+print("New list content adding in possition [1] the value of possition of [4]:", numbers)  # Printing current list content.
 
 #length of the list
 print("\nList length:", len(numbers))  # Printing the list's length.
